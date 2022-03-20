@@ -1,0 +1,27 @@
+{
+  "name": "svg-demoware",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "webpack:demo1": "webpack --config ./config/webpack/case1",
+    "webpack:demo2": "webpack --config ./config/webpack/case2",
+    "webpack:demo3": "webpack --config ./config/webpack/case3",
+    "rollup:demo1": "rollup --config ./config/rollup/case1.js",
+    "rollup:demo2": "rollup --config ./config/rollup/case2.js",
+    "rollup:demo3": "rollup --config ./config/rollup/case3.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-url": "^6.1.0",
+    "@svgr/rollup": "^6.2.1",
+    "@svgr/webpack": "^6.2.1",
+    "react": "^17.0.2",
+    "rollup": "^2.70.1",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
